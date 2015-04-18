@@ -127,3 +127,11 @@ Many awesome formats can be created by writing new mustache templates. We :heart
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+```
+    gem build json_resume.gemspec
+    gem install --local json_resume-1.0.4.gem
+    json_resume convert justingill.json
+    python -m SimpleHTTPServer
+    json_resume convert justingill.json --template html.mustache
+```
