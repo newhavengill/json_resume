@@ -110,6 +110,18 @@ JSON is parsed as per the `markdown` standards. This implies all this works-
 5. Modify your HTML [mustache template](#mustache-templates) to include your icons. Specifically, edit the ``div`` class in the template to include your new grunticon (```<div class="icon-user icon-square">```, where "user" is the SVG name). You can also check grunticon's generated ``preview.html`` file to verify the icon class name.
 6. Run ``json_resume convert --template=/path/to/template <json>``, and you should be able to see the changes in the generated HTML. Also, steps 1-5 are to be done just once and the icons will be stored within your local gem.
 
+
+## Getting Started
+
+```
+    gem build json_resume.gemspec
+    gem install --local json_resume-1.0.4.gem
+    json_resume convert justingill.json
+    python -m SimpleHTTPServer
+    ~/workspace/json_resume/bin/json_resume convert --out=html_pdf justingill.json --template html.mustache
+    ~/workspace/json_resume/bin/json_resume convert --out=html justingill.json --template html.mustache
+```
+
 ## Changelog
 
 ### v1.0
@@ -127,11 +139,3 @@ Many awesome formats can be created by writing new mustache templates. We :heart
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
-```
-    gem build json_resume.gemspec
-    gem install --local json_resume-1.0.4.gem
-    json_resume convert justingill.json
-    python -m SimpleHTTPServer
-    json_resume convert justingill.json --template html.mustache
-```
