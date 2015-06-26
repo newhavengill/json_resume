@@ -1,0 +1,194 @@
+{
+    "settings": {
+        "icons" : true
+    },
+    "firstname": "Justin",
+    "familyname": "Gill",
+    "github_id": "newhavengill",
+    "bio_data": {
+        "email": "jgillcentral @ gmail.com",
+        "phone": "(203) 809-0465",
+        "stars": ["Java","Javascript","Shell","Git"],
+	"summary": {
+		"points":[
+                        ]
+	},
+        "skills": {
+            "details": [
+                {
+                    "type": "Programming Languages",
+                    "items": [
+                        "Java",
+                        "Javascript",
+                        "Ruby",
+                        "Shell"
+                    ]
+                },
+                {
+                    "type": "Platforms",
+                    "items": [
+                        "Mac OS X",
+                        "RHEL/Centos",
+                        "Sun Solaris" ,
+						"iOS",
+						"Windows"                       
+                    ]
+                },                
+                {
+                    "type": "Databases",
+                    "items": [
+                        "Oracle",
+                        "MySQL",
+                        "MS SQL Server",
+                        "MongoDB"
+                    ]
+                },
+				{
+	                "type": "Distributed Computing",
+	                "items": [
+	                    "Vagrant",
+	                    "Docker",
+	                    "Zookeeper",
+						"AWS",
+						"Heroku"
+	                ]
+            	}				
+            ]
+        },
+        "experience": {
+            "items": [
+                {
+                    "title": "Senior Application Architect",
+                    "organisation": "ESPN",
+                    "location": "Bristol, CT",
+                    "from": "Sept 2011",
+                    "to": "present",
+                    "details": [
+								"Work closely with senior management, Lead SCM Engineer, Assoc Dir Platform Engineering, and the Enterprise Engineering Architeture group to implement new solutions and resolve issues with existing software applications.",
+								"Lead team in the development and maintainence of a vendor Content Management System (Jive) that serves ESPN's intranet allowing editors and employees to publish stories, create communities, centralize documentation and collaborate on projects. Jive development is done in Java, Javascript, NodeJS, Apache, and Oracle. Source code is in GitHub and promoted via Jenkins and custom scripts.  Logs can be accessed via Splunk.",
+								"Leading migration to a microservice architecture. Traditionally Enterprise Engineering writes JBoss solutions where one container holds many applications.  Microservices are stand alone apps.  That fundamental change means new principles need to be communicated, new technologies need to be introduced, developers need to be trained, and all deployment pipeline components need to be written and configured.",
+								"Lead team in the design and development and implementation of AngularJS and NodeJS solutions.  Tasks include training developers, writing skeleton projects, continuous integration and automated code promotion, Apache httpd configuration, F5 load balancing, and caching with Varnish.  Puppet is used to promote code and restart the supervisor (ForeverJS).",
+								"Designed and developed a project to set up a Selenium grid that pulls an operating system and a browser from configuration files and ensures that tests are only run on the corresponding nodes in the hub.  Development completed in Shell and Java.",
+								"Designed and developed a headless testing service with CasperJS (PhantomJS).",
+								"Leading an ongoing migration from Subversion to Git.  Tasks include introducing developers to DVSC, the migration of project source code, training developers, and onboarding.  Moderator of #Gitfu, a resource to other Git users.",
+								"Migrated dozens of applications from Apache Ant to Apache Maven.  Tasks included the training of developers, creation of super POM's and restructuring of projects.",
+								"Led development piece of the Mule Enterprise Service Bus proof of concept. Tasks included getting requirements from potential Mule consumers and writing applications and Mule Flows.  Applications and flows were written in Java, Javascript, Shell, and Mule Expression Language (MEL).", 
+								"Designed and developed a proof of concept application that is using the JIRA restful API to read logs and automatically create JIRA issues.  Written in Ruby and Shell.",
+								"Designed and developed an automated process to build iPhone IPA's and Android APK's.  Process was written in Shell and Ruby, then integrated into Jenkins."
+								],
+                    "technology_used": {
+                        "tools": [
+                            "RHEL/Centos",
+                            "Java",
+							"JBoss",
+                            "Oracle",
+                            "Javascript",
+                            "Maven",
+                            "Subversion",
+                            "Git",
+                            "Agile"
+                        ]
+                    }
+                },
+                {
+                    "title": "Senior Application Developer",
+                    "organisation": "NHL.com",
+		    		"location": "New York, NY",
+                    "from": "Jul 2006",
+                    "to": "Sept 2011",
+                    "details": [
+                        "Developed and maintained an in‐house Content Management System that serves both the NHL’s public site and all 30 NHL team sites with fresh content, allowing journalists, producers, sales, and marketing staff to publish stories, insert ads, and showcase marketing assets.",
+                        "Developed components and pages for NHL.com including search, video, and real time arena scoring.",
+                        "Developed Selenium scripts to automate testing of NHL.com, in-house Content Management System and all 30 NHL team sites.  Scripts were written in Perl and Java.",
+                        "Led design and development of components and pages for all 30 NHL team sites. Team site development included localization to support our French Canadian and European fan base.",
+                        "Led design and development of automation services in Java to process XML or JSON feeds and trigger batch jobs on a periodic basis to manipulate other processes."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "Solaris",
+                            "Java",
+                            "MySQL",
+                            "Cayenne",
+                            "Tapestry",
+                            "Maven",
+                            "Jetty",
+                            "Subversion",
+                            "Git"
+                        ]
+                    }
+                },
+                {
+                    "title": "Software Engineer III",
+                    "organisation": "Walt Disney Internet Group (WDIG)",
+		    		"location": "Bristol, CT",
+                    "from": "Sept 2004",
+                    "to": "Jul 2006",
+                    "details": [
+                        "Designed, developed and maintained automation services in Java to process XML or CSV feeds, trigger batch jobs on a periodic basis to manipulate other processes, make database connections and set up persistence layers generated from a persistence library. The services were part of a simple, pipelined message‐handling targeting automation framework.",
+                        "Designed, developed and maintained applications to build and deliver dynamic web pages. The applications were built within a customized Java servlet engine and a package of Java servlets similar to the J2EE framework. The HTTP servlet engine was configurable and queued transactions for servlets defined in a properties file. Access to the data was provided to clients using Tea templates and servlets.",
+                        "Designed, developed and maintained applications for the ESPNMobileVirtualNetworkOperators (MVNO) and wireless service. Access to the data was provided to clients using Tea templates and servlets."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "Windows",
+                            "Java",
+                            "MS SQL Server",
+                            "Ant",
+                            "VSS",
+                            "Perforce"
+                        ]
+                    }
+                },
+                {
+                    "title": "Senior Application Developer",
+                    "organisation": "Ingenix",
+		    		"location": "New Haven, CT",
+                    "from": "Nov 1998",
+                    "to": "Sept 2004",
+                      "details": [                        
+                        "Designed and developed an ETL (Export, Transfer, Load) application employing the Java Type Safe Enum and type‐safe collection patterns to import disparate data from one system to another via a DAO (Data Access Object) using JDBC against an Oracle 9i database.",
+                        "Developed a custom J2EE application on a SunOne Application Server to manage subscription requests.",
+                        "United HealthGroup Employee Spotlight Recognition recipient in September 2002."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "Unix",
+                            "Java",
+                            "Oracle",
+                            "SunOne",
+                            "Perl",
+                            "VSS"
+                        ]
+                    }
+                },
+                {
+                    "title": "Adjunct Faculty",
+                    "organisation": "Quinnipiac University",
+		    		"location": "Hamden, CT",
+                    "from": "Jul 2002",
+                    "to": "Jun 2004",
+                    "details": [                        
+                      "Adjunct professor of undergraduate courses in Computer Networking and Principles of Information Technology."
+                    ]
+                }
+            ]
+        },
+        "education": {
+        "show_gpa": false,
+            "schools": [
+                {
+                    "degree": "Master of Business Administration",
+                    "institution": "Quinnipiac University",
+                    "graduation_year": 2002,
+                    "gpa": ""
+                },
+                {
+                    "degree": "Bachelor of Science",
+                    "institution": "University of Connecticut",
+                    "graduation_year": 1996,
+                    "gpa": ""
+                }
+            ]
+        }
+    }
+}
